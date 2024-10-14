@@ -114,4 +114,4 @@ Result `'H:'` should be shown
 
 ## Acknowledgements
 
-The code base for this repo was referenced from [qiskit-pqcee-provider](https://github.com/pqcee/qiskit-pqcee-provider) repo. Credits to [@sdcioc](https://github.com/sdcioc) and for [qiskit-pqcee-provider](https://github.com/pqcee/qiskit-pqcee-provider).
+The code base for this repo was referenced from [qiskit-pqcee-provider](https://github.com/pqcee/qiskit-pqcee-provider) repo. Credits to [@sdcioc](https://github.com/sdcioc) for [qiskit-pqcee-provider](https://github.com/pqcee/qiskit-pqcee-provider).
