@@ -11,7 +11,7 @@ Qiskit to QuICScript Translator. This repo is open source for developers to tran
 Check out QuICScript at https://pqcee.github.io/QuICScript/
 
 > [!WARNING]  
-> Current version might have all gates.
+> Current version might not have all gates.
 > Submit [issue](https://github.com/pqcee/qiskit_quicscript_translator/issues) for gate implementation.
 
 # Installation
