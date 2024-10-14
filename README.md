@@ -29,7 +29,7 @@ pip install git+https://github.com/pqcee/qiskit_quicscript_translator@<VERSION>
 ```
 
 > [!NOTE]  
-> Fill `<VERSION>` with specific version, check [Releases](https://github.com/pqcee/qiskit_quicscript_translator/releases) for avaliable versions
+> Fill `<VERSION>` with specific version, check [Tags](https://github.com/pqcee/qiskit_quicscript_translator/tags) for avaliable versions
 
 # Usage
 
