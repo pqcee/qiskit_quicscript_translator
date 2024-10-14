@@ -1,6 +1,6 @@
 # qiskit_quicscript_translator
 
-<p align="center">
+<p align="left">
     <a href="./release" alt="Version 0.0.1-beta">
         <img src="https://img.shields.io/badge/version-0.0.1--beta-brightgreen.svg" />
     </a>
