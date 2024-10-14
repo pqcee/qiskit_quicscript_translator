@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qiskit_quicscript_translator"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+    { name = "benny", email = "bennyrobot1143@gmail.com" },
+    { name = "Jonathan Liu", email = "jonathan@pqcee.com" },
+    { name = "Stefan", email = "jonathan@pqcee.com" },
+]
+maintainers = [{ name = "benny", email = "bennyrobot1143@gmail.com" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.8",
+]
+dependencies = ["qiskit==1.2.*", "numpy==2.*"]
+
+[project.urls]
+Documentation = "https://github.com/pqcee/qiskit_quicscript_translator#readme"
+Issues = "https://github.com/pqcee/qiskit_quicscript_translator/issues"
+Source = "https://github.com/pqcee/qiskit_quicscript_translator"
+
+[tool.hatch.version]
+path = "src/qiskit_quicscript_translator/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = ["mypy>=1.0.0"]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/qiskit_quicscript_translator tests}"
+
+[tool.coverage.run]
+source_pkgs = ["qiskit_quicscript_translator", "tests"]
+branch = true
+parallel = true
+omit = ["src/qiskit_quicscript_translator/__about__.py"]
+
+[tool.coverage.paths]
+qiskit_quicscript_translator = ["src/qiskit_quicscript_translator"]
+tests = ["tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
