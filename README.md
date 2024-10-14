@@ -12,7 +12,7 @@ Check out QuICScript at https://pqcee.github.io/QuICScript/
 
 > [!WARNING]  
 > Current version might have all gates.
-> Submit issue for gate implementation.
+> Submit [issue](https://github.com/pqcee/qiskit_quicscript_translator/issues) for gate implementation.
 
 # Installation
 
@@ -29,7 +29,7 @@ pip install git+https://github.com/pqcee/qiskit_quicscript_translator@<VERSION>
 ```
 
 > [!NOTE]  
-> Fill `<VERSION>` with specific version, check [Releases](./releases) for avaliable versions
+> Fill `<VERSION>` with specific version, check [Releases](https://github.com/pqcee/qiskit_quicscript_translator/releases) for avaliable versions
 
 # Usage
 
