@@ -125,6 +125,8 @@ class QuiCGate(enum.Enum):
     @classmethod
     def from_qiskit_name(cls, value: str):
         for member in cls.__members__.values():
+            if value == "u3":
+                value = "u"
             if member.get_qiskit_instruction().name == value:
                 return member
         raise KeyError(
