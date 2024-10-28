@@ -1,6 +1,5 @@
-# python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && jupyter notebook
+# python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && jupyter lab
 qiskit==1.2.2
-notebook==7.2.2
 matplotlib==3.9.2
-pylatexenc
+pylatexenc==2.10
 qiskit-aer==0.15.0
