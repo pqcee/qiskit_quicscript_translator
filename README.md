@@ -1,20 +1,20 @@
 # qiskit_quicscript_translator
 
-<p align="left">
-    <a href="./release" alt="Version 0.0.1-beta">
-        <img src="https://img.shields.io/badge/version-0.0.1--beta-brightgreen.svg" />
-    </a>
-</p>
+<!-- markdownlint-disable MD042 -->
+
+[![Version](https://img.shields.io/badge/version-0.0.1--beta-brightgreen.svg)](#)
+
+<!-- markdownlint-enable MD042 -->
 
 Qiskit to QuICScript Translator. This repo is open source for developers to translate Qiskit to QuICScript language.
 
-Check out QuICScript at https://pqcee.github.io/QuICScript/
+Check out [QuICScript Community Version](https://pqcee.github.io/QuICScript/).
 
-> [!WARNING]  
+> [!WARNING]
 > Current version might **not** have all gates.
 > Submit [issue](https://github.com/pqcee/qiskit_quicscript_translator/issues) for gate implementation.
 
-# Installation
+## Installation
 
 ### Installing Latest
 
@@ -28,10 +28,10 @@ pip install git+https://github.com/pqcee/qiskit_quicscript_translator
 pip install git+https://github.com/pqcee/qiskit_quicscript_translator@<VERSION>
 ```
 
-> [!NOTE]  
+> [!NOTE]
 > Fill `<VERSION>` with specific version, check [Tags](https://github.com/pqcee/qiskit_quicscript_translator/tags) for avaliable versions
 
-# Usage
+## Usage
 
 ### Example
 
@@ -61,13 +61,14 @@ get_quic_circuit_file_string(circuit: QuantumCircuit) -> str
 
 Return QuICScript file `string` format of circuit
 
-# Maintenance
+## Maintenance
 
 This section list the instruction on how to maintain this repo
 
-## Using Venv (Recommended)
+### Using Venv (Recommended)
 
-Instructions from [Link](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+See [instructions](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+on installing using pip and virtual environments.
 
 ### Step 1: Create Virtual Environment
 
@@ -106,7 +107,7 @@ In Python Terminal
 >>> from qiskit import QuantumCircuit
 >>> qc = QuantumCircuit(1)
 >>> qc.h(0)
->>> qc.h(qc)
+>>> get_quic_circuit_string(qc)
 'H:'
 ```
 
